@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>CriptoWeb</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/navbar.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/price.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/noticias.css'> 
+    <link rel='stylesheet' type='text/css' media='screen' href='css/tabla.css'> 
+    <link rel='stylesheet' type='text/css' media='screen' href='css/footer.css'> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" ></script>
+</head>
+<body>
+    <div class="navbar ">
+        <header >
+            <nav class="menu " >
+                <div class="logo"><img src="assets/img/fox.png" alt="logo"></div>
+                <div class="nav-menu ">
+                    <ul class="nav_list">
+                        <li class="nav_item"><a href="#price" class="nav_link">Precio</a></li>
+                        <li class="nav_item"><a href="#table" class="nav_link">Tabla De Precios</a></li>
+                        <li class="nav_item"><a href="#noticias" class="nav_link">Noticias</a></li>
+                        <li class="nav_item"><a href="#footer" class="nav_link">Acerca de</a></li>
+                        
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+    
+
+    <div class="cuerpo">
+        <!--PRECIOS-->
+        <section class="container_price" id="price">
+            <div class="price-bx">
+                <h2>CRIPTOWEB</h2>
+                <p>
+                    Los usuarios pueden ver los precios actuales de diferentes criptomonedas, ver gráficos de precios y leer noticias relacionadas con criptomonedas.
+                </p>
+                <div class="container">
+                    <div class="price">
+                        <div class="log"><img src="" alt=""></div>
+                        <div>
+                            <img src="assets/img/bitcoin.png" alt="bitcoin">
+                            <h2>$<span id="bitcoin"></span></h2>
+                            <h2>BitCoin</h2>
+                        </div>
+                    </div>
+
+                    <div class="price">
+                        <div class="log"><img src="" alt=""></div>
+                        <div>
+                            <img src="assets/img/ethereum.png" alt="bitcoin">
+                            <h2>$<span id="ethereum"></span></h2>
+                            <h2>Ethereum</h2>
+                        </div>
+
+                    </div>
+                    <div class="price">
+                        <div class="log"><img src="" alt=""></div>
+                        <div>
+                            <img src="assets/img/tether.png" alt="bitcoin">
+                            <h2>$<span id="tether"></span></h2>
+                            <h2>Tether</h2>
+                        </div>
+
+                    </div>
+                    <div class="price">
+                        <div class="log"><img src="" alt=""></div>
+                        <div>
+                            <img src="assets/img/solana.png" alt="bitcoin">
+                            <h2>$<span id="solana"></span></h2>
+                            <h2>Solana</h2>
+                        </div>
+
+                    </div>
+                    <div class="price">
+                        <div class="log"><img src="" alt=""></div>
+                        <div>
+                            <img src="assets/img/cardano.png" alt="bitcoin">
+                            <h2>$<span id="cardano"></span></h2>
+                            <h2>Cardano</h2>
+                        </div>
+
+                    </div>
+                    <div class="price">
+                        <div class="log"><img src="" alt=""></div>
+                        <div>
+                            <img src="assets/img/dogecoin.png" alt="bitcoin">
+                            <h2>$<span id="dogecoin"></span></h2>
+                            <h2>DogeCoin</h2>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--TABLA DE PRECIOS-->
+        <section class="container-table-price" id="table">
+            <div class="container-table">
+                <div class="table">
+                    <h2>Tabla de precios</h2>
+                    <h2>Muy pronto</h2>
+                    <div class="tabla-precios">
+                        <table id="table_prices">
+                            <thead>
+                                <tr>
+                                    <th>Criptomoneda</th>
+                                    <th>Precio</th>
+                                </tr>
+                            </thead>
+                            <tbody id="table_body">
+                        
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--NOTICIAS-->
+        <section class="container_noticias" id="noticias">
+            <div class="container-col">
+                <div class="noticias">
+                    <h3>Noticias</h3>
+                </div>
+            </div>
+        </section>
+
+        <!--FOOTER-->
+        <section class="container-footer" id="footer">
+            <div class="footer">
+                <a href="https://drive.google.com/file/d/1Ck_aqtx6BKG59Hv3ivj62NMhuwnHducr/view?usp=share_link" target="_blank"  class="footer-link">Politicas De Operacion</a>
+                <a href="https://drive.google.com/file/d/14QqoKrtTm6BDizMUCtG19n1RxsUPjU7c/view?usp=share_link" target="_blank" class="footer-link">Terminos de uso</a>
+                <h2>Michael G © ALL RIGHTS RESERVED</h2>
+            </div>
+        </section>
+
+    
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

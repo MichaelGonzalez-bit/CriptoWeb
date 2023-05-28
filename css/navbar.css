@@ -1,0 +1,80 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.cuerpo{
+    background: #000044;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Orbitron', sans-serif;
+    
+}
+
+header {
+    width: 100%;
+    padding: 0.1em;
+    background-color: #120701;
+    transition: 0.4s;
+}
+
+/*.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}*/
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.logo img {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.nav_list {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    column-gap: 1rem;
+}
+
+.nav_item a {
+    color: #FAFAFA;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 5px;
+}
+
+.menu-hidden {
+    transform: translateY(-100%);
+}
+
+.navbar:hover .menu-hidden {
+    transform: translateY(0);
+    transition: transform 0.4s;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+    }
+
+    .nav-menu {
+        margin-top: 1em;
+    }
+}
